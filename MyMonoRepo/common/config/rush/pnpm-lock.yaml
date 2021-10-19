@@ -4,6 +4,7 @@ specifiers:
   '@rush-temp/component': file:./projects/component.tgz
   '@rush-temp/customers': file:./projects/customers.tgz
   '@rush-temp/finance': file:./projects/finance.tgz
+  '@rush-temp/newapp': file:./projects/newapp.tgz
   '@rush-temp/shop': file:./projects/shop.tgz
   '@size-limit/preset-small-lib': ^6.0.1
   '@testing-library/jest-dom': ^5.11.4
@@ -24,6 +25,7 @@ dependencies:
   '@rush-temp/component': file:projects/component.tgz
   '@rush-temp/customers': file:projects/customers.tgz_typescript@4.4.4
   '@rush-temp/finance': file:projects/finance.tgz_typescript@4.4.4
+  '@rush-temp/newapp': file:projects/newapp.tgz_typescript@4.4.4
   '@rush-temp/shop': file:projects/shop.tgz_typescript@4.4.4
   '@size-limit/preset-small-lib': 6.0.3_size-limit@6.0.3
   '@testing-library/jest-dom': 5.14.1
@@ -15280,8 +15282,41 @@ packages:
       - webpack-plugin-serve
     dev: false
 
+  file:projects/newapp.tgz_typescript@4.4.4:
+    resolution: {integrity: sha512-CMYx1aSbhpp+tvAig3zdegtygplQQnDF1lcnJlU2ALTAfAcqVtAten+1ZWKE65RcRVF+T24tu4WkilOZ8ns5DA==, tarball: file:projects/newapp.tgz}
+    id: file:projects/newapp.tgz
+    name: '@rush-temp/newapp'
+    version: 0.0.0
+    dependencies:
+      '@testing-library/jest-dom': 5.14.1
+      '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
+      '@testing-library/user-event': 12.8.3
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-scripts: 4.0.3_react@17.0.2+typescript@4.4.4
+      web-vitals: 1.1.2
+    transitivePeerDependencies:
+      - '@testing-library/dom'
+      - '@types/webpack'
+      - bufferutil
+      - canvas
+      - fibers
+      - node-sass
+      - sass
+      - sockjs-client
+      - supports-color
+      - ts-node
+      - type-fest
+      - typescript
+      - utf-8-validate
+      - webpack-cli
+      - webpack-command
+      - webpack-hot-middleware
+      - webpack-plugin-serve
+    dev: false
+
   file:projects/shop.tgz_typescript@4.4.4:
-    resolution: {integrity: sha512-Aj4gv8BC2q5dMMeZUDZjwlAqdFO/Eqvw6EW8LNhnlvke8VLkkyOMd2XaoqCfgQ3X3Ic7JhWpM4UBxdDkUSmL6g==, tarball: file:projects/shop.tgz}
+    resolution: {integrity: sha512-jK8kFcW5lT/rhkjhHGj0bXbrfoe0JKLpWObH68QPwik+064ULDmgtuLHB/aEiWjj1p5Qn2m44b+XE4TLSuhZgQ==, tarball: file:projects/shop.tgz}
     id: file:projects/shop.tgz
     name: '@rush-temp/shop'
     version: 0.0.0

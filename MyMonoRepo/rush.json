@@ -137,6 +137,11 @@
     {
       "packageName": "@my-libs/component",
       "projectFolder": "libs/component"
+    },
+    {
+      "packageName": "newapp",
+      "projectFolder": "apps/newapp"
     }
+
   ]
 }
