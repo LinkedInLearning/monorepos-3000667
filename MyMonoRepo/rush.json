@@ -127,21 +127,12 @@
       "projectFolder": "apps/customers"
     },
     {
-      "packageName": "shop",
-      "projectFolder": "apps/shop"
-    },
-    {
       "packageName": "finance",
       "projectFolder": "apps/finance"
     },
     {
-      "packageName": "@my-libs/component",
-      "projectFolder": "libs/component"
-    },
-    {
       "packageName": "newapp",
-      "projectFolder": "apps/newapp"
+      "projectFolder" : "apps/newapp"
     }
-
   ]
 }
