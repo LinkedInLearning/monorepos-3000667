@@ -1,1 +1,1 @@
-node common/scripts/my-task.js
+node MyMonoRepo/common/scripts/my-task.js
