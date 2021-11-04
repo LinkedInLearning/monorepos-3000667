@@ -63,3 +63,40 @@ jobs:
             node common/scripts/install-run-rush.js change -v
             node common/scripts/install-run-rush.js install
             node common/scripts/install-run-rush.js build --to blue-app
+  deploy:
+        runs-on: ubuntu-latest
+        strategy:
+          matrix:
+            node-version: [14.x]
+        env:
+          CI: true
+        steps:
+          # Get code from repo
+          - name: Checkout code
+            uses: actions/checkout@v1
+          # Install NodeJS
+          - name: Use Node.js ${{ matrix.node-version }}
+            uses: actions/setup-node@v1
+            with:
+              node-version: ${{ matrix.node-version }}
+          # Install and build rush 
+          - name: Install dependencies
+            run: |
+              node common/scripts/install-run-rush.js change -v
+              node common/scripts/install-run-rush.js install
+              node common/scripts/install-run-rush.js build
+              node common/scripts/install-run-rush.js deploy --overwrite -p red-app 
+
+              
+          # Run custom  
+          - name: Deploy to netlify
+            uses: netlify/actions/cli@master
+            env:
+              NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+              NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
+            with:
+              args: deploy --dir=common/deploy/apps/red-app --prod
+              secrets: '["DEV_NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]' 
+    
+  
+
