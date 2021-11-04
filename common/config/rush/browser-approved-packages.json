@@ -1,0 +1,114 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@libs/rainbow",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@testing-library/react",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "@testing-library/user-event",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "babel-jest",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "cross-env",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-config-standard",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-config-standard-react",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-node",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-promise",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-react",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "eslint-plugin-standard",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "gh-pages",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "microbundle-crl",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "npm-run-all",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "libs" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "react-scripts",
+      "allowedCategories": [ "apps", "libs" ]
+    },
+    {
+      "name": "web-vitals",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "webpack",
+      "allowedCategories": [ "apps" ]
+    },
+    {
+      "name": "webpack-dev-server",
+      "allowedCategories": [ "apps" ]
+    }
+  ]
+}

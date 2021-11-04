@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+
+  "commands": [
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "Runs tests on every project.",
+      "description": "Run the local test command on every project of the monorepo",
+      "enableParallelism": true,
+
+      "ignoreMissingScript": true,
+      "ignoreDependencyOrder": true,
+      "allowWarningsInSuccessfulBuild": true
+    }
+  ],
+  "parameters": []
+}
