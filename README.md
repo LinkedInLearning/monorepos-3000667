@@ -1,7 +1,12 @@
-# Building monorepos on GitHub
-This is the repository for the LinkedIn Learning course `Building monorepos on GitHub`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Building Monorepos on GitHub
+This is the repository for the LinkedIn Learning course Building Monorepos on GitHub. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Building Monorepos on GitHub][lil-thumbnail-url] 
+
+If you’re a developer or system administrator, you’re always looking for easier and more collaborative ways to manage a large codebase for your organization. That’s where monorepos come in. They allow you to manage code for many projects on a single repository. In this course, instructor Carlos Solís teaches you how to build and host monorepos on GitHub, streamlining your entire workflow and boosting collaboration across your team.
+
+Discover how monorepos can help you reduce complexity, avoid code dependencies, and improve cross-functional collaboration. Learn more about this powerful tool for managing multiple projects from one centralized point. Find out how to build, manage, and deploy monorepos on GitHub, exploring best practices, tools, and techniques to scale your enterprise with this exciting piece of architecture.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -27,8 +32,15 @@ To resolve this issue:
 3. [Course-specific instructions]
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Carlos Solís 
+                            
 
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/carlos-solis).
+
+[lil-course-url]: https://www.linkedin.com/learning/building-monorepos-on-github
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3000667/3000667-1640196242098-16x9.jpg
